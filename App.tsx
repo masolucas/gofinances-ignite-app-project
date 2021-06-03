@@ -10,7 +10,7 @@ import {
 } from '@expo-google-fonts/poppins';
 
 import theme from './src/global/styles/theme';
-import { Dashboard } from './src/screens/Dashboard';
+import { CategorySelect } from './src/screens/CategorySelect';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Dashboard />
+      <CategorySelect />
     </ThemeProvider>
   )
 }
